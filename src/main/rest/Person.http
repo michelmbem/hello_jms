@@ -1,0 +1,12 @@
+### POST Person
+POST {{host}}/person
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "gender": "FEMALE",
+  "birthDate": "1957-12-14"
+}
+
+###
