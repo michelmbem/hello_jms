@@ -1,0 +1,1 @@
+docker run --name activemq -p 5672:5672 -p 8161:8161 -v .\volume\data:/opt/activemq/data -e ACTIVEMQ_PASSWORD=amqadm -e ACTIVEMQ_WEB_ADMIN_PASSWORD=amqwebadm -d islandora/activemq:main
